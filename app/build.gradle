@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "quarter.perfect.com.quarternew"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        flavorDimensions "versionCode"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+        kuan {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "kuan"]
+        }
+        xiaomi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+        }
+        qh360 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "qh360"]
+        }
+        baidu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+        }
+        wandoujia {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation project(':base')
+    implementation project(':library')
+    compile 'com.facebook.fresco:fresco:0.11.0'
+    compile 'com.jcodecraeer:xrecyclerview:1.3.2'
+    compile "com.android.support:design:26.1.0"
+    compile 'com.hjm:BottomTabBar:1.1.1'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'com.xhb:xbanner:1.2.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.dou361.ijkplayer:jjdxm-ijkplayer:1.0.5'
+    compile 'fm.jiecao:jiecaovideoplayer:2.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'jp.wasabeef:glide-transformations:1.0.6'
+    compile 'com.zhy:autolayout:1.4.3'
+    compile 'com.github.donkingliang:ImageSelector:1.2.0'
+    compile 'com.soundcloud.android:android-crop:1.0.1@aar'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'   // 查看retrofit请求的整体路劲
+    compile 'com.yalantis:phoenix:1.2.3'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+}

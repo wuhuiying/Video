@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4">
+        <LinearLayout
+            android:layout_marginTop="60px"
+            android:padding="20px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:layout_gravity="center_vertical"
+                fresco:roundAsCircle="true"
+                android:id="@+id/my_image_view"
+                fresco:placeholderImage="@drawable/touxiang"
+                android:layout_width="80px"
+                android:layout_height="80px" />
+
+            <TextView
+                android:layout_marginLeft="20px"
+                android:textSize="23sp"
+                android:layout_gravity="center_vertical"
+                android:text="椰汁奶茶"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginLeft="30px"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/sex"
+                android:layout_width="30px"
+                android:layout_height="30px" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginBottom="10px"
+            android:textSize="19sp"
+            android:layout_marginLeft="20px"
+            android:text="编辑个性签名"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingLeft="35px">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px">
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499933216"
+                android:layout_marginLeft="20px"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="30px" />
+            <TextView
+                android:layout_marginTop="20px"
+                android:text="椰汁奶茶"
+                android:layout_marginLeft="15px"
+                android:layout_weight="9"
+                android:layout_width="0px"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499943790"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="30px" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10px"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px">
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499947358"
+                android:layout_marginLeft="20px"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="30px" />
+            <TextView
+                android:layout_marginTop="20px"
+                android:text="椰汁奶茶"
+                android:layout_marginLeft="15px"
+                android:layout_weight="8"
+                android:layout_width="0px"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499943790"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="30px" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10px"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px">
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499946865"
+                android:layout_marginLeft="20px"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="30px" />
+            <TextView
+                android:layout_marginTop="20px"
+                android:text="椰汁奶茶"
+                android:layout_marginLeft="15px"
+                android:layout_weight="8"
+                android:layout_width="0px"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499943790"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="30px" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10px"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px">
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499947389"
+                android:layout_marginLeft="20px"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="30px" />
+            <TextView
+                android:layout_marginTop="20px"
+                android:text="椰汁奶茶"
+                android:layout_marginLeft="15px"
+                android:layout_weight="8"
+                android:layout_width="0px"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499943790"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="30px" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sliding_linearlayout"
+        android:layout_marginTop="150px"
+        android:gravity="center_vertical"
+        android:paddingLeft="30px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <ImageView
+            android:background="@drawable/yue"
+            android:layout_marginLeft="20px"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="30px" />
+        <TextView
+            android:layout_marginTop="10px"
+            android:text="夜间模式"
+            android:layout_marginLeft="10px"
+            android:layout_weight="13"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30px"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499947056"
+                android:layout_width="60px"
+                android:layout_height="60px" />
+            <TextView
+                android:gravity="center"
+                android:text="我的作品"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="15px"
+                android:background="@drawable/raw_1499947157"
+                android:layout_width="60px"
+                android:layout_height="60px" />
+            <TextView
+                android:gravity="center"
+                android:text="我的作品"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

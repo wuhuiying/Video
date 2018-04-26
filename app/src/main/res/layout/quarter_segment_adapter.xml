@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:background="@drawable/touxiang"
+            android:id="@+id/sdv_segment_photo"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            app:roundAsCircle="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sdv_segment_name"
+                android:layout_width="match_parent"
+                android:layout_height="35px"
+                android:gravity="center"
+                android:text="天蝎喝牛奶"
+                android:textColor="#ff3660"
+                android:textSize="20px" />
+
+            <TextView
+                android:id="@+id/sdv_segment_time"
+                android:layout_width="wrap_content"
+                android:layout_height="35px"
+                android:gravity="center"
+                android:text="2017-05-23  14:25"
+                android:textSize="16px" />
+
+        </LinearLayout>
+        <quarter.perfect.com.quarternew.util.QuarterMyAnimetion
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sdv_segment_txt"
+        android:layout_width="match_parent"
+        android:layout_height="132px"
+        android:gravity="center"
+        android:text="印度情报部门称：“中国战争愿望空前高涨，每一个城市几乎每一条街道都明目张胆的贴着标语——打印、激光打印、快速打印、双面打印，特别值得注意的是双面打印，可能和巴基斯坦有关。。。”、双面打印，特别值得注意的是双面打印，可能和巴基斯坦有关。。。”"
+        android:textSize="24px" />
+
+</LinearLayout>

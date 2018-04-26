@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="-50px"
+    android:orientation="vertical"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            fresco:roundAsCircle="true"
+            android:id="@+id/xrv_touxiang"
+            fresco:placeholderImage="@drawable/touxiang"
+            android:layout_width="90px"
+            android:layout_height="90px" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/xrv_tv1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:id="@+id/xrv_tv2"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rl_flag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <quarter.perfect.com.quarternew.util.QuarterMyAnimetion
+                android:id="@+id/myanim"
+                android:layout_alignParentRight="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></quarter.perfect.com.quarternew.util.QuarterMyAnimetion>
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:id="@+id/xrv_tv3"/>
+    <fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
+        android:layout_width="wrap_content"
+        android:layout_height="600px"
+        android:id="@+id/jc"></fm.jiecao.jcvideoplayer_lib.JCVideoPlayer>
+</LinearLayout>

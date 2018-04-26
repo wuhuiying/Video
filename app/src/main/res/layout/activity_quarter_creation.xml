@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/craetebj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="quarter.perfect.com.quarternew.view.QuarterCreationActivity">
+    
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+        <TextView
+            android:textSize="24px"
+            android:id="@+id/quarter_creation_return_tv"
+            android:text="取消"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="30px"
+            android:text="创作"
+            android:gravity="center"
+            android:layout_weight="10"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="250px"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:background="@drawable/video"
+            fresco:roundAsCircle="true"
+            android:id="@+id/quarter_craetion_video_sdv"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_marginTop="80px"
+            android:background="@drawable/duanzi"
+            fresco:roundAsCircle="true"
+            android:id="@+id/quarter_craetion_duanzi_sdv"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+    </LinearLayout>
+
+
+</LinearLayout>

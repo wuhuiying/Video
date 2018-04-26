@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/pinbi"
+        android:background="@drawable/pinbi"
+        android:layout_width="60px"
+        android:layout_height="60px" />
+    <TextView
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_below="@+id/open"
+        android:id="@+id/pinbi1"
+        android:textSize="20px"
+        android:text="屏蔽"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/lianjie"
+        android:background="@drawable/copylink1"
+        android:layout_width="60px"
+        android:layout_height="60px" />
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@+id/open"
+        android:id="@+id/lianjie1"
+        android:textSize="20px"
+        android:text="复制链接"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/jubao"
+        android:background="@drawable/tanhao"
+        android:layout_width="60px"
+        android:layout_height="60px" />
+    <TextView
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_below="@+id/open"
+        android:id="@+id/name1"
+        android:textSize="20px"
+        android:text="举报"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/open"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/icon_open"
+        android:layout_width="60px"
+        android:layout_height="60px" />
+
+
+
+
+</RelativeLayout>

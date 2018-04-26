@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/publich"
+    android:orientation="vertical"
+    tools:context="quarter.perfect.com.quarternew.view.QuarterPublishActivity">
+    <RelativeLayout
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/ed"
+         android:hint="视频描述"/>
+       <Button
+           android:layout_marginRight="20px"
+           android:layout_alignParentRight="true"
+           android:id="@+id/fa"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="发送"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/iv"/>
+</LinearLayout>

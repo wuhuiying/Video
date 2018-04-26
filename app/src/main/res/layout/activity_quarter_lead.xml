@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/timg"
+    android:layout_height="match_parent"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:layout_marginTop="400px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="180px"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/quarter_ib_weixin_login"
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:background="@mipmap/raw_1500022698" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="180px"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/quarter_ib_qq_login"
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:background="@mipmap/raw_1500022714" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="180px"
+        android:layout_marginLeft="300px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/quarter_id_qt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="50px"
+            android:text="其他方式登录"
+            android:textSize="30px" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
